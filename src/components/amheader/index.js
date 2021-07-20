@@ -1,6 +1,10 @@
+import {
+	Link
+} from "react-router-dom";
+
 import logo from '../../img/assal_logo.svg';
 import assal_title from '../../img/assal_title.svg';
-// import bannerHotelFront from '../../img/banners/hotel_front.webp';
+
 
 function AMHeader() {
 	return (
@@ -18,7 +22,11 @@ function AMHeader() {
 					</div>
 					<div className="row">
 						<div className="col-md-12">
-							<img src={assal_title} alt="title" className="AMTitleImage" />
+							<Link
+								to="/">
+								<img src={assal_title} alt="title" className="AMTitleImage" />
+							</Link>
+
 						</div>
 					</div>
 				</div>

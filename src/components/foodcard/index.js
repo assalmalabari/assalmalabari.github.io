@@ -2,8 +2,10 @@
 function AMFoodCard({ cardImage, cardLabel }) {
 	return (
 		<div className="foodcard">
-			<img alt="cardimage" src={cardImage} />
-			<span>{cardLabel}</span>
+			<div>
+				<img alt="cardimage" src={cardImage} />
+			</div>
+			<div className="label">{cardLabel}</div>
 		</div>
 	)
 }

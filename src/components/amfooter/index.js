@@ -1,7 +1,8 @@
 import {
 	Link
-  } from "react-router-dom";
-  
+} from "react-router-dom";
+import AMLogo from "../amlogo";
+
 
 
 function AMFooter() {
@@ -9,12 +10,13 @@ function AMFooter() {
 		<div className="row globalfooter">
 			<div className="col-md-4 footercard sitelinks">
 				<div>
-				<Link to="/about">About</Link> . . . . . . . . . . . . . . . . . {"->"}
+					<Link to="/about">About . . . . . . . . . . . . . . . . . &#8594;</Link>
 				</div>
 				<div>
-				<Link to="/menu">Menu</Link>  . . . . . . . . . . . . . . . . . {"->"}
+					<Link to="/menu">Menu  . . . . . . . . . . . . . . . . . &#8594;</Link>
 				</div>
 			</div>
+			<AMLogo />
 			<div className="col-md-4 footercard">
 				<h3>Contact</h3>
 				<div>
@@ -23,14 +25,20 @@ function AMFooter() {
 				</div>
 				<div>
 					<h5>Call Us/whatsapp</h5>
-					<h4>998363937398</h4>
+					<a href="https://wa.me/9400459911" target="_blank" rel="noopener noreferrer">
+						<h4>9400459911</h4>
+					</a>
 				</div>
 			</div>
 			<div className="col-md-4 footercard">
 				<div>
 					<h3>Follow</h3>
-					<h4>Call Us/whatsapp</h4>
-					<h4>998363937398</h4>
+					<a href="https://www.instagram.com/assalmalabari.kodakara/" target="_blank" rel="noopener noreferrer">
+						<h4>assalmalabari.kodakara</h4>
+					</a>
+					<a href="https://www.facebook.com/assalmalabari.restaurant.kodakara" target="_blank" rel="noopener noreferrer">
+						<h4>assalmalabari.restaurant.kodakara</h4>
+					</a>
 				</div>
 			</div>
 		</div>

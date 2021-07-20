@@ -21,6 +21,13 @@ body {
 	color: $as-secondary;
 }
 
+.minilogo {
+	text-align: center;
+	img.logo {
+		width: 25%;
+	}
+}
+
 .globalfooter {
 	padding-top: 1em;
 	.footercard {
@@ -34,6 +41,11 @@ body {
 				display: inline-block;
 				width: 100%;
 			}
+
+		}
+		a {
+			text-decoration: none;
+			color: $as-secondary
 		}
 
 
@@ -50,7 +62,7 @@ body {
 // Global Header
 .AMHeader {
 	.bannerHolder {
-		background: center url('img/banners/hotel_front.webp');
+		background: center url('img/banners/hotel_front.png');
 		background-size: cover;
 		height: 400px;
 		text-align: left;
@@ -84,6 +96,13 @@ body {
 		h5, h2 {
 			color: $as-primary;
 			font-weight: bold;
+		}
+	}
+
+	.foodcard {
+		width: 300px;
+		.label {
+			padding: 15px 0 0 0;
 		}
 	}
 }
@@ -123,6 +142,7 @@ body {
 	}
 	
 	.top-banner {
+		color: $as-secondary;
 		padding: 10px 0;
 		background-color: $as-primary;
 		&.left-item {
@@ -138,4 +158,21 @@ body {
 		z-index: 10;
 		position: relative;
 	}
+}
+
+.am-home-menu-button{
+	width: 200px;
+	padding: 10px;
+	background-color: $as-primary;
+	color: $as-secondary;
+	text-decoration: none;
+	display: inline-block;
+	
+	.am-link-arrow {
+		float: right;
+	}
+}
+
+.am-home-menu-button:hover{
+	text-decoration: none;
 }

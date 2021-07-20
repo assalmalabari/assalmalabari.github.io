@@ -14,7 +14,10 @@ export default function Nav() {
 			</div>
 			<div className="row logo-menu">
 				<div className="col-6">
-					<img src={assal_title} className="AMTitleImage" alt="title" />
+					<a
+						href="/">
+						<img src={assal_title} className="AMTitleImage" alt="title" />
+					</a>
 				</div>
 				<div className="col-4">
 				</div>

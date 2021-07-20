@@ -2,6 +2,7 @@
 
 
 import { Fragment } from 'react';
+import AMHomeMenuButton from '../../components/menu_button';
 import AMSpecials from './specials';
 
 const HOMETEXT = [
@@ -29,6 +30,7 @@ function HomeContent() {
 			<div className="row">
 				<div className="col-md-6">
 					<IntroText />
+					<AMHomeMenuButton/>
 				</div>
 				<div className="col-md-6 schedules">
 					<div className="schedule-card">
@@ -36,7 +38,7 @@ function HomeContent() {
 						<h5>Pickup + delivery only.</h5>
 					</div>
 					<div className="schedule-card">
-						<h2>12pm {"->"} 10pm</h2>
+						<h2>12pm &#8594; 10pm</h2>
 						<h5>Closed on Sundays</h5>
 					</div>
 					<div className="schedule-card">

@@ -6,10 +6,10 @@ export default function Nav() {
 		<div className="globalnav">
 			<div className="row top-banner">
 				<div className="col-6 left-item">
-					Pickup/Home delivery
+					<b>Pickup/Home delivery</b>
 				</div>
 				<div className="col-6 right-item">
-					Order Here!
+					<b>Order Here!</b>
 				</div>
 			</div>
 			<div className="row logo-menu">

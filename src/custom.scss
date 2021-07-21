@@ -22,9 +22,9 @@ body {
 }
 
 .minilogo {
-	text-align: center;
+	text-align: center !important;
 	img.logo {
-		width: 25%;
+		width: 50px;
 	}
 }
 
@@ -33,7 +33,7 @@ body {
 	.footercard {
 
 		&.sitelinks {
-			div {
+			a.menulink {
 				text-align: justify;
 			}
 			div:after {

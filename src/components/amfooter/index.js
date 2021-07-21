@@ -10,20 +10,24 @@ function AMFooter() {
 		<div className="row globalfooter">
 			<div className="col-md-4 footercard sitelinks">
 				<div>
-					<Link to="/about">About . . . . . . . . . . . . . . . . . &#8594;</Link>
+					<Link className="menulink" to="/about">About . . . . . . . . . . . . . . . . . &#8594;</Link>
 				</div>
 				<div>
-					<Link to="/menu">Menu  . . . . . . . . . . . . . . . . . &#8594;</Link>
+					<Link className="menulink" to="/menu">Menu  . . . . . . . . . . . . . . . . . &#8594;</Link>
 				</div>
+				<AMLogo />
 			</div>
-			<AMLogo />
 			<div className="col-md-4 footercard">
 				<h3>Contact</h3>
 				<div>
 					<h4>Location</h4>
-					<h3>Koratty, Thrissur 68363</h3>
+					<h3>
+						Koratty,
+						<br/>
+						Thrissur 68363
+					</h3>
 				</div>
-				<div>
+				<div className="mt-5">
 					<h5>Call Us/whatsapp</h5>
 					<a href="https://wa.me/9400459911" target="_blank" rel="noopener noreferrer">
 						<h4>9400459911</h4>

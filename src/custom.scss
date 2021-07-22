@@ -29,6 +29,9 @@ a{
 	img.logo {
 		width: 50px;
 	}
+	div.title {
+		height: 30px;
+	}
 }
 
 .globalfooter {
@@ -91,7 +94,7 @@ a{
 	text-align: left;
 	.schedules {
 		.schedule-card {
-			padding-top: 2em;
+			padding-top: 0.5em;
 		}
 		h4 {
 			color: $as-dark;

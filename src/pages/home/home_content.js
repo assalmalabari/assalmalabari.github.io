@@ -37,14 +37,14 @@ function HomeContent() {
 				<div className="col-md-6 schedules">
 					<div className="schedule-card">
 						<h4>Working Hours</h4>
-						<h5>Pickup + delivery only.</h5>
-					</div>
-					<div className="schedule-card">
 						<h2>
 							<label>12<span>pm</span></label>
 							&#8594;
 							<label>10<span>pm</span></label>
 						</h2>
+					</div>
+					<div className="schedule-card">
+						<h5>Pickup + delivery only.</h5>
 						<h5>Closed on Sundays</h5>
 					</div>
 					<div className="schedule-card">

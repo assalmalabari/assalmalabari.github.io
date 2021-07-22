@@ -7,7 +7,7 @@ function AMLogo() {
 			<div>
 			<img src={logo} alt="logo" className="logo"/>
 			</div>
-			<div>
+			<div className="title">
 			<img src={assal_title} alt="title"/>
 			</div>
 			<div>a bite of malabar</div>

@@ -1,15 +1,16 @@
-import menudata from '../../factory/menu.json'; 
+import AMFooter from '../../components/amfooter';
+import menudata from '../../factory/menu.json';
 
 
 
 function build_menu_right() {
-	let menu = menudata.slice(0,3);
+	let menu = menudata.slice(3, 5);
 	return build_menu(menu);
 }
 
 
 function build_menu_left() {
-	let menu = menudata.slice(0,4);
+	let menu = menudata.slice(0, 3);
 	return build_menu(menu);
 }
 
@@ -38,21 +39,25 @@ function build_menu(menu) {
 
 export default function Menu() {
 	return (
-		<div class="row menu ampage">
+		<div className="container-fluid">
+			<div class="row menu ampage mt-3">
 
-			<div class="col-md-1">
-			</div>
-			<div class="col-md-4">
-				{build_menu_left()}
-			</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-4">
+					{build_menu_left()}
+				</div>
 
-			<div class="col-md-2">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-4">
+					{build_menu_right()}
+				</div>
+				<div class="col-md-1">
+				</div>
+
 			</div>
-			<div class="col-md-4">
-				{build_menu_right()}
-			</div>
-			<div class="col-md-1">
-			</div>
+			<AMFooter/>
 		</div>
 	)
 }

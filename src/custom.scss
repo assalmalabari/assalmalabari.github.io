@@ -9,10 +9,13 @@ $as-secondary: #F4DFC5;
 
 $as-dark: #2C2723;
 
-
 body {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+a{
+	text-decoration: none;
 }
 
 /* Footer */
@@ -63,6 +66,8 @@ body {
 .AMHeader {
 	.bannerHolder {
 		background: center url('img/banners/hotel_front.png');
+		// background-size: inherit;
+		// background-repeat: no-repeat;
 		background-size: cover;
 		height: 400px;
 		text-align: left;
@@ -96,6 +101,13 @@ body {
 		h5, h2 {
 			color: $as-primary;
 			font-weight: bold;
+			label{
+				font-size: 4rem;
+				color: $as-dark;
+				span {
+					font-size: 14px;
+				}
+			}
 		}
 	}
 
@@ -103,6 +115,9 @@ body {
 		width: 300px;
 		.label {
 			padding: 15px 0 0 0;
+		}
+		img {
+			width: 100%;
 		}
 	}
 }
@@ -162,7 +177,7 @@ body {
 
 .am-home-menu-button{
 	width: 200px;
-	padding: 10px;
+	padding: 15px 15px 10px 15px;
 	background-color: $as-primary;
 	color: $as-secondary;
 	text-decoration: none;

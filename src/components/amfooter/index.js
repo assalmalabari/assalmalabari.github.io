@@ -9,9 +9,9 @@ function AMFooter() {
 	return (
 		<div className="row globalfooter">
 			<div className="col-md-4 footercard sitelinks">
-				<div>
+				{/* <div>
 					<Link className="menulink" to="/about">About . . . . . . . . . . . . . . . . . &#8594;</Link>
-				</div>
+				</div> */}
 				<div>
 					<Link className="menulink" to="/menu">Menu  . . . . . . . . . . . . . . . . . &#8594;</Link>
 				</div>
@@ -22,14 +22,14 @@ function AMFooter() {
 				<div>
 					<h4>Location</h4>
 					<h3>
-						Koratty,
+						Kodakara,
 						<br/>
-						Thrissur 68363
+						Thrissur 680684
 					</h3>
 				</div>
 				<div className="mt-5">
 					<h5>Call Us/whatsapp</h5>
-					<a href="https://wa.me/9400459911" target="_blank" rel="noopener noreferrer">
+					<a href="https://wa.me/+919400459911" target="_blank" rel="noopener noreferrer">
 						<h4>9400459911</h4>
 					</a>
 				</div>

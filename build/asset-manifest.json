@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c5059a82.chunk.css",
-    "main.js": "/static/js/main.34e38409.chunk.js",
-    "main.js.map": "/static/js/main.34e38409.chunk.js.map",
+    "main.js": "/static/js/main.713cf340.chunk.js",
+    "main.js.map": "/static/js/main.713cf340.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0cc58af9.js",
     "runtime-main.js.map": "/static/js/runtime-main.0cc58af9.js.map",
-    "static/js/2.0f288e78.chunk.js": "/static/js/2.0f288e78.chunk.js",
-    "static/js/2.0f288e78.chunk.js.map": "/static/js/2.0f288e78.chunk.js.map",
+    "static/js/2.833eafd2.chunk.js": "/static/js/2.833eafd2.chunk.js",
+    "static/js/2.833eafd2.chunk.js.map": "/static/js/2.833eafd2.chunk.js.map",
     "static/js/3.48b1adb4.chunk.js": "/static/js/3.48b1adb4.chunk.js",
     "static/js/3.48b1adb4.chunk.js.map": "/static/js/3.48b1adb4.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.c5059a82.chunk.css.map": "/static/css/main.c5059a82.chunk.css.map",
-    "static/js/2.0f288e78.chunk.js.LICENSE.txt": "/static/js/2.0f288e78.chunk.js.LICENSE.txt",
+    "static/js/2.833eafd2.chunk.js.LICENSE.txt": "/static/js/2.833eafd2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Gayathri-Thin.2d8fc7eb.ttf",
     "static/media/assal_logo.329e69c8.svg": "/static/media/assal_logo.329e69c8.svg",
     "static/media/assal_title.ed95b81c.svg": "/static/media/assal_title.ed95b81c.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0cc58af9.js",
-    "static/js/2.0f288e78.chunk.js",
+    "static/js/2.833eafd2.chunk.js",
     "static/css/main.c5059a82.chunk.css",
-    "static/js/main.34e38409.chunk.js"
+    "static/js/main.713cf340.chunk.js"
   ]
 }

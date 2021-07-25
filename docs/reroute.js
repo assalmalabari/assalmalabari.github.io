@@ -5,5 +5,5 @@ function getQueryStringValue(key) {
 const redirect = getQueryStringValue("redirect");
 console.log("redirect", redirect)
 if (document.location.pathname === '/' && redirect) {
-	document.location.assign(`${document.location.origin}/#/${redirect}`);
+	document.location.replace(`${document.location.origin}/#/${redirect}`);
 }

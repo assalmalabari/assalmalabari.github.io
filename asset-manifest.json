@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.c5059a82.chunk.css",
-    "main.js": "/static/js/main.34e38409.chunk.js",
-    "main.js.map": "/static/js/main.34e38409.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0cc58af9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0cc58af9.js.map",
-    "static/js/2.0f288e78.chunk.js": "/static/js/2.0f288e78.chunk.js",
-    "static/js/2.0f288e78.chunk.js.map": "/static/js/2.0f288e78.chunk.js.map",
-    "static/js/3.48b1adb4.chunk.js": "/static/js/3.48b1adb4.chunk.js",
-    "static/js/3.48b1adb4.chunk.js.map": "/static/js/3.48b1adb4.chunk.js.map",
+    "main.js": "/static/js/main.69513bef.chunk.js",
+    "main.js.map": "/static/js/main.69513bef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e558edfd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e558edfd.js.map",
+    "static/js/2.dd3eeb69.chunk.js": "/static/js/2.dd3eeb69.chunk.js",
+    "static/js/2.dd3eeb69.chunk.js.map": "/static/js/2.dd3eeb69.chunk.js.map",
+    "static/js/3.4b2542b5.chunk.js": "/static/js/3.4b2542b5.chunk.js",
+    "static/js/3.4b2542b5.chunk.js.map": "/static/js/3.4b2542b5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.c5059a82.chunk.css.map": "/static/css/main.c5059a82.chunk.css.map",
-    "static/js/2.0f288e78.chunk.js.LICENSE.txt": "/static/js/2.0f288e78.chunk.js.LICENSE.txt",
+    "static/js/2.dd3eeb69.chunk.js.LICENSE.txt": "/static/js/2.dd3eeb69.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Gayathri-Thin.2d8fc7eb.ttf",
     "static/media/assal_logo.329e69c8.svg": "/static/media/assal_logo.329e69c8.svg",
     "static/media/assal_title.ed95b81c.svg": "/static/media/assal_title.ed95b81c.svg",
-    "static/media/gheerice.815c9378.jpeg": "/static/media/gheerice.815c9378.jpeg",
-    "static/media/custom.scss": "/static/media/hotel_front.652a16d4.png"
+    "static/media/biriyani.bc0e0abf.jpeg": "/static/media/biriyani.bc0e0abf.jpeg",
+    "static/media/custom.scss": "/static/media/hotel_front.652a16d4.png",
+    "static/media/kalmas.3fe729b1.jpeg": "/static/media/kalmas.3fe729b1.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cc58af9.js",
-    "static/js/2.0f288e78.chunk.js",
+    "static/js/runtime-main.e558edfd.js",
+    "static/js/2.dd3eeb69.chunk.js",
     "static/css/main.c5059a82.chunk.css",
-    "static/js/main.34e38409.chunk.js"
+    "static/js/main.69513bef.chunk.js"
   ]
 }

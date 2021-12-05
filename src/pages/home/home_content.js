@@ -38,7 +38,7 @@ function HomeContent() {
 					<div className="schedule-card">
 						<h4>Working Hours</h4>
 						<h2>
-							<label>12<span>pm</span></label>
+							<label>11<span>am</span></label>
 							&#8594;
 							<label>10<span>pm</span></label>
 						</h2>

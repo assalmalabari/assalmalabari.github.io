@@ -1,6 +1,7 @@
 import FoodCard from '../../components/foodcard';
-import biriyaniImage from '../../img/specials/biriyani.jpeg';
-import greeRiceImage from '../../img/food/gheerice.jpeg';
+import biriyaniImage from '../../img/food/dec2021/biriyani.jpeg';
+// import greeRiceImage from '../../img/food/gheerice.jpeg';
+import kalmasImage from '../../img/food/dec2021/kalmas.jpeg';
 
 function AMSpecials() {
 	return (
@@ -13,8 +14,8 @@ function AMSpecials() {
 			</div>
 			<div className="col-md-4">
 				<FoodCard
-					cardLabel="നെയ്ച്ചോറും കോഴിയും"
-					cardImage={greeRiceImage}
+					cardLabel="കൽമാസ്"
+					cardImage={kalmasImage}
 				/>
 			</div>
 			<div className="col-md-4">
